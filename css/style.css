@@ -1,0 +1,270 @@
+/*通用样式*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font: 14px 'KaiTi','Microsoft YaHei';
+}
+img{
+    border: none;
+}
+.wp{
+    width: 960px;
+    margin: 0 auto;
+}
+.l{
+    float: left;
+}
+.r{
+    float: right;
+}
+.cl{
+    clear: both;
+}
+
+/*顶端*/
+.top{
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    background-color: #6cf;
+    color: #fff;
+}
+.top span{
+    margin-right: 15px;
+}
+.top span.mr_o{
+    margin: 0;
+}
+.top a{
+    color: #fff;
+    text-decoration: none;
+}
+.top a:hover{
+    color: #f60;
+}
+
+/*logos*/
+.logos{
+    height: 65px;
+    margin: 15px 0;
+}
+
+/*搜索*/
+.search{
+    width: 222px;
+    height: 35px;
+    margin-top: 15px;
+}
+.search td{
+    height: 35px;
+}
+.s_l input{
+    height: 33px;
+    line-height: 33px;
+    border-radius: 8px;
+    border-color: #6cf;
+}
+.s_r button{
+    width: 45px;
+    height: 37px;
+    background-color: #6cf;
+    border-radius: 8px;
+    border-color: #6fc;
+    cursor: pointer;
+}
+
+/*电话*/
+.phone{
+    height: 65px;
+    line-height: 65px;
+    margin: 5px;
+}
+.phone span{
+    font-size: 20px;
+    color: #6cf;
+}
+
+/*导航*/
+.nav{
+    height: 40px;
+    width: 100%;
+    background-color: #6fc;
+}
+.nav li{
+    list-style: none;
+    float: left;
+    line-height: 40px;
+    padding: 0 20px;
+}
+.nav li.a, li:hover{
+    height: 40px;
+    background-color: #0c9;
+}
+.nav a{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/*banner*/
+.banner{
+    margin-bottom: 15px;
+}
+.banner img{
+    height: 200px;
+    width: 960px;
+}
+
+/*主体*/
+.title{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #6cf;
+    position: relative;
+}
+.tit_l{
+    font-size: 26px;
+    color: #0c9;
+    font-weight: bold;
+    font-family: "SimHei";
+}
+.tit_r{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.tit_r a{
+    font-size: 18px;
+    color: #6cf;
+    text-decoration: none;
+}
+.overview{
+    width: 540px;
+    height: 345px;
+    margin-right: 20px;
+}
+.news{
+    width: 400px;
+    height: 345px;
+}
+.products{
+    width: 100%;
+    height: 350px;
+}
+
+/*overview_content*/
+.overview_content{
+    margin: 10px 0;
+}
+.overview_content img{
+    height: 100px;
+    width: 120px;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+.overview_content p{
+    color: #028;
+    font-size: 20px;
+    text-indent: 40px;
+}
+
+/*news*/
+.news_content{
+    margin: 10px 0;
+}
+.news_content li{
+    padding-left: 20px;
+    list-style: none;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    background: url("../images/li.jpg")no-repeat center left;
+}
+.news_content li.a{
+    background: none;
+    padding: 0;
+    height: 96px;
+}
+.news_content li.a img{
+    float: left;
+    margin: 0 10px 5px 0;
+}
+.news_content span{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.news_content h3{
+    font-weight: normal;
+}
+.news_content a{
+    color: #028;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/*products_content*/
+.products_content{
+    margin: 10px 20px;
+}
+.products_content li{
+    height: 128px;
+    width: 128px;
+    float: left;
+    list-style: none;
+    margin: 0 25px 25px 0;
+    overflow: hidden;
+    position: relative;
+}
+.products_content span{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 12px;
+    height: 28px;
+    width: 108px;
+    padding: 0 10px;
+    color: #334d5c;
+    background-color: #6fc;
+    overflow: hidden;
+}
+.products_content li:hover span{
+    display: block;
+}
+
+/*底部*/
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: #6cf;
+}
+.footer_top{
+    height: 70px;
+    line-height: 70px;
+    color: #fff;
+}
+.footer_top a{
+    color: #fff;
+    text-decoration: none;
+}
+.links p{
+    color: #fff;
+}
+.links a{
+    color: #fff;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+/*返回顶端*/
+.go_top{
+    position: fixed;
+    right: 70px;
+    bottom: 100px;
+}
+.go_top img{
+    width: 50px;
+    height: 45px;
+}
